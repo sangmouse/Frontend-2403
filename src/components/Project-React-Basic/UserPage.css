@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+}
+table {
+    border-collapse: collapse;
+}
+tr,th,td {
+    border: 1px solid grey;
+    padding: 10px 30px;
+    text-align: center;
+}
+.user-page {
+    width: 80%;
+    margin: 40px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* form */
+.form-section{
+    margin: 0 0 40px 0;
+}
+
+.form-section input {
+    display: block;
+    width: 400px;
+    height: 40px;
+    padding: 0 10px;
+}
+.form-section__item {
+    display: flex;
+    align-items: center;
+    margin: 0 0 20px 0;
+}
+.form-section__item label {
+    display: block;
+    width: 130px;
+    font-weight: 500;
+}
+
+.form-section__item select {
+    display: block;
+    width: 400px;
+    height: 40px;
+}
+.form-btn-group{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}

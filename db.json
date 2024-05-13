@@ -1,0 +1,28 @@
+{
+  "users": [
+    {
+      "email": "sangnv",
+      "account": "sangnv",
+      "fullname": "nguyễn sang",
+      "department": "sales",
+      "position": "sale",
+      "id": 2
+    },
+    {
+      "email": "adas",
+      "account": "asdsad",
+      "fullname": "sadsa",
+      "department": "IT",
+      "position": "dev",
+      "id": 4
+    },
+    {
+      "email": "tuananh@gmail.com",
+      "account": "tuananh",
+      "fullname": "Tuan Anh",
+      "department": "IT",
+      "position": "dev",
+      "id": 5
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+.question3 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 0 50px 0;
+}
+.question3__input {
+    display: inline-block;
+    height: 30px;
+    width: 400px;
+}
+.question3__input:focus{
+    outline: none;
+}
+.question3__btn {
+    display: inline-block;
+    height: 35px;
+    margin: 0 0 0 5px;
+    padding: 5px 20px;
+    background: lightblue;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+.question3__msg{
+    color: red;
+    font-weight: bold;
+}

@@ -1,0 +1,11 @@
+.form-page {
+    text-align: center;
+}
+.form-page__input{
+    height: 30px;
+    width: 300px;
+}
+.form-wrapper {
+    display: inline-flex;
+
+}

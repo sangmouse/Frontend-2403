@@ -1,0 +1,31 @@
+.homepage {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    border: 1px solid grey;
+}
+.header{
+    margin-top: 30px;
+    background: lightblue;
+    padding: 60px 0;
+}
+.header h1 {
+    letter-spacing: 2px;
+}
+.footer{
+    background: green;
+    padding: 60px 0;
+}
+.footer h1 {
+    letter-spacing: 2px;
+}
+.body__1{
+    background: rgb(180, 180, 180);
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.body__1 h1 {
+    letter-spacing: 2px;
+}

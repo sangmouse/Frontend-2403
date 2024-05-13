@@ -1,0 +1,50 @@
+.heading {
+    text-align: center;
+    background-color: var(--var-c-pink);
+    padding: 20px 0;
+    letter-spacing: 2px;
+}
+
+.btn {
+    padding: 10px 20px;
+    font-size: 17px;
+    cursor: pointer;
+    background: lightgreen;
+}
+
+.btn.btn-decrease {
+    background: red;
+    color: white;
+}
+
+.odd {
+    color: red;
+}
+
+.even {
+    color: blue;
+}
+
+.form {
+    width: fit-content;
+    margin: 0 auto;
+    display: flex;
+    padding: 30px 0;
+    height: 30px;
+}
+
+.form__input input {
+    width: 300px;
+    display: inline-block;
+    height: 30px;
+}
+
+.form__btn {
+    height: 30px;
+    background: lightblue;
+    display: inline-block;
+    font-size: 18px;
+    width: 120px;
+    border: 0;
+    cursor: pointer;
+}
