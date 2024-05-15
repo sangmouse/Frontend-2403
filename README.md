@@ -1,20 +1,13 @@
-Project Final React Basic:
+Các step để khởi tạo redux
 
-1. User List: list được lấy từ api, list hiển thị danh sách các user gồm các thông tin sau:
+1. cài đặt redux, react-redux, redux-toolkit
+   npm install @reduxjs/toolkit
+   npm install react-redux
+   npm install redux
 
-- ID, Email, Username, FullName, Department,Position
+2. khởi tạo store
+   vào index, khai báo <Provider> component, truyền vào cho nó 1 store object
+3. khai báo 1 folder store
+   khai báo file store.js chứa các reducer
 
-2. Tạo mới user gồm các field sau:
-
-- Email - input email <input type="email"/>
-- UserName - input
-- FullName - input
-- Department - Select/Option: Sales, Marketing, Software Solution Consultant
-- Position - Select/Option: Dev, Sale
-- Button: tạo mới, reset form
-- Modal: là nơi chứa form, button close
-
-- Delete: click button sẽ xóa user được chọn đi
-- Edit: click button mở modal chứa form và đổ data của user được chọn lên đó, có button save, reset
-
-- API: json-server
+4. khởi tạo các file reducer tương ứng
