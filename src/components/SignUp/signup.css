@@ -1,0 +1,46 @@
+.signup__container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.msg__error{
+    color: red;
+    font-weight: bold;
+}
+
+#signup {
+    width: 60%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#signup .form__item label {
+    font-weight: 600;
+    margin: 0 0 5px 0;
+    display: block;
+}
+
+#signup .form__item input {
+    display: block;
+    width: 500px;
+    height: 30px;
+    padding: 0 10px;
+    margin: 0 0 20px 0;
+}
+
+#signup .form__btn {
+    display: block;
+    width: 100px;
+    cursor: pointer;
+    padding: 8px 20px;
+    font-weight: 600;
+    color: black;
+    background: lightseagreen;
+    border: 0;
+}

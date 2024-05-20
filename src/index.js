@@ -6,12 +6,42 @@ import { Provider } from "react-redux";
 import { functionA, functionB } from "./App";
 import reportWebVitals from "./reportWebVitals";
 import store from "./stores/store";
+import { RouterProvider, createBrowserRouter } from "react-router-dom";
+import UserList from "./components/UserList/UserList";
+import Login from "./components/Login/Login";
+import SignUp from "./components/SignUp/SignUp";
+import LayoutRoot from "./components/LayoutRoot/LayoutRoot";
+
+const router = createBrowserRouter([
+  {
+    path: "",
+    element: <LayoutRoot />,
+    children: [
+      {
+        path: "/",
+        element: <App />,
+      },
+      {
+        path: "user-list",
+        element: <UserList />,
+      },
+      {
+        path: "login",
+        element: <Login />,
+      },
+      {
+        path: "sign-up",
+        element: <SignUp />,
+      },
+    ],
+  },
+]);
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <Provider store={store}>
-      <App />
+      <RouterProvider router={router} />
     </Provider>
   </React.StrictMode>
 );
