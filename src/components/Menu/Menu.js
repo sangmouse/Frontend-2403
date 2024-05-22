@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./menu.css";
 import { Link, useNavigate } from "react-router-dom";
+import styles from "./Menu.module.scss";
 
 const Menu = () => {
   const navigate = useNavigate();
@@ -16,6 +17,11 @@ const Menu = () => {
       title: "User List",
       url: "user-list",
     },
+    {
+      id: 3,
+      title: "Style Module",
+      url: "style-module",
+    },
   ];
 
   const isLogin = window.localStorage.getItem("status");
@@ -30,6 +36,7 @@ const Menu = () => {
 
   return (
     <div>
+      <h1 className={styles.heading}>Guide in menu scss modules</h1>
       <ul className="menu">
         {menus.map((menu) => {
           return (

@@ -6,7 +6,6 @@ import { Link } from "react-router-dom";
 const UserList = () => {
   const dispatch = useDispatch();
   const userList = useSelector((store) => store.user.users);
-  console.log("userList", userList);
 
   useEffect(() => {
     dispatch(fetchUsers());
@@ -22,7 +21,7 @@ const UserList = () => {
               <p>ID: {item?.id}</p>
               <p>Email: {item?.email}</p>
               <p>
-                <Link to="">View detail</Link>
+                <Link to={`${item?.id}`}>View detail</Link>
               </p>
             </li>
           );
@@ -33,10 +32,3 @@ const UserList = () => {
 };
 
 export default UserList;
-
-/**
- *
- *
- * 1.tạo 1 component mới để hiển thị thông tin chi tiết của user được chọn
- *
- */

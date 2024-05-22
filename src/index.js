@@ -11,6 +11,8 @@ import UserList from "./components/UserList/UserList";
 import Login from "./components/Login/Login";
 import SignUp from "./components/SignUp/SignUp";
 import LayoutRoot from "./components/LayoutRoot/LayoutRoot";
+import UserDetail from "./components/UserDetail/UserDetail";
+import StyleModule from "./components/StyleModule/StyleModule";
 
 const router = createBrowserRouter([
   {
@@ -26,12 +28,20 @@ const router = createBrowserRouter([
         element: <UserList />,
       },
       {
+        path: "user-list/:id",
+        element: <UserDetail />,
+      },
+      {
         path: "login",
         element: <Login />,
       },
       {
         path: "sign-up",
         element: <SignUp />,
+      },
+      {
+        path: "style-module",
+        element: <StyleModule />,
       },
     ],
   },
