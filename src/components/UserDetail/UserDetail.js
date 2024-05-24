@@ -60,4 +60,5 @@ export default UserDetail;
  * 9. local storage
  * 10. json-server
  * 11. npm, yarn, nvm
+ * 12. cách dùng các đơn vị phổ biến trong css
  */

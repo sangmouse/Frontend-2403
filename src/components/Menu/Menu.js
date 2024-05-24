@@ -22,6 +22,16 @@ const Menu = () => {
       title: "Style Module",
       url: "style-module",
     },
+    {
+      id: 4,
+      title: "Axios Guide",
+      url: "axios",
+    },
+    {
+      id: 5,
+      title: "Footer",
+      url: "footer",
+    },
   ];
 
   const isLogin = window.localStorage.getItem("status");
@@ -45,7 +55,7 @@ const Menu = () => {
             </li>
           );
         })}
-        <li>
+        {/* <li>
           <button
             style={{
               border: 0,
@@ -62,7 +72,7 @@ const Menu = () => {
           >
             {textMessage}
           </button>
-        </li>
+        </li> */}
       </ul>
     </div>
   );

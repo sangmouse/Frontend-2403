@@ -1,17 +1,26 @@
 .container {
+  font-size: 14px;
   .heading {
-    font-size: 40px;
+    font-size: 80%;
     color: red;
   }
 
   .subHeading {
-    font-size: 20px;
+    font-size: 1.5rem;
     color: rgb(43, 41, 41);
   }
-}
-.title {
+
+  @media screen and (max-width: 1024px) {
+    font-size: 10px;
+  }
 }
 
 // [ComponentName]_[className]_[:id]
 // StyleModule_heading_264kdj
 // Menu_heading_1234ed
+
+// em - done
+// rem
+//  %
+
+// rem = em + root
